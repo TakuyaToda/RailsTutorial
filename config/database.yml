@@ -25,6 +25,8 @@ production:
   adapter: postgresql
   host: ec2-54-243-54-6.compute-1.amazonaws.com
   database: d12n51hotkcu6
-  username: atccgibqjvusxk
+  user: atccgibqjvusxk
   port: 5432
   password: 7c9fe337687000df9c9c1be4120cd562228a94d6cb82f3be46421f3caa7a08ec
+  uri: postgres://atccgibqjvusxk:7c9fe337687000df9c9c1be4120cd562228a94d6cb82f3be46421f3caa7a08ec@ec2-54-243-54-6.compute-1.amazonaws.com:5432/d12n51hotkcu6
+  heroku CLI: heroku pg:psql postgresql-graceful-63083 --app rails-tutorial-sample
